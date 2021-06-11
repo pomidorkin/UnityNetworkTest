@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8104199986871734333}
   - component: {fileID: 4663437399015046648}
   - component: {fileID: 5395764587765047255}
+  - component: {fileID: -8739418473587791518}
+  - component: {fileID: 8288873199451750247}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -63,6 +65,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particlePrefab: {fileID: 5478489110092422406, guid: cf2acc7de7bac8f4da4ad4ce7f15b798, type: 3}
+--- !u!114 &-8739418473587791518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2952970012175931786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd0c00edd4a8ae459f526b0633132c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teamColourRenderer: {fileID: 1903158125176922359}
+  teamColors:
+  - {r: 0, g: 0.21553564, b: 1, a: 0}
+  - {r: 1, g: 0, b: 0, a: 0}
+  - {r: 1, g: 0.8042871, b: 0, a: 0}
+  - {r: 0.09913385, g: 1, b: 0, a: 0}
+--- !u!114 &8288873199451750247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2952970012175931786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20219a83742ee544683888f76a210fff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballPrefab: {fileID: 8370681483127668879, guid: bb5ae2e4240c08e428a8c139f2608ac2, type: 3}
 --- !u!1 &5676847536791362139
 GameObject:
   m_ObjectHideFlags: 0

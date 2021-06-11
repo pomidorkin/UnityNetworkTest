@@ -56,8 +56,12 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PasswordNetworkManager.cs" />
+    <Compile Include="Assets\Scripts\TeamPlayer.cs" />
     <Compile Include="Assets\Scripts\ParticleSpawner.cs" />
+    <Compile Include="Assets\Scripts\TeamPicker.cs" />
+    <Compile Include="Assets\Scripts\PasswordNetworkManager.cs" />
+    <Compile Include="Assets\Scripts\BallSpawner.cs" />
+    <Compile Include="Assets\Scripts\Ball.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

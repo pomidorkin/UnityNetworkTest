@@ -6,6 +6,8 @@ using MLAPI.Messaging;
 
 public class ParticleSpawner : NetworkBehaviour
 {
+    // This script spawns a particle effect. It spawns a particle effect if the owner or
+    // other player triggers it
     [SerializeField] private GameObject particlePrefab;
 
     private void Update()
